@@ -349,12 +349,12 @@ function App() {
             </h1>
 
             <div>
-              <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787]">
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-                <li>Countries</li>
-                <li>Contact</li>
+              <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787] ">
+                <li className="footer-item-hover">Home</li>
+                <li className="footer-item-hover">About</li>
+                <li className="footer-item-hover">Service</li>
+                <li className="footer-item-hover">Countries</li>
+                <li className="footer-item-hover">Contact</li>
               </ul>
             </div>
           </div>
@@ -365,12 +365,12 @@ function App() {
             </h1>
 
             <div>
-              <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787]">
-                <li>Australia</li>
-                <li>Canada</li>
-                <li>New Zealand</li>
-                <li>USA</li>
-                <li>UK</li>
+              <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787] ">
+                <li className="footer-item-hover">Australia</li>
+                <li className="footer-item-hover">Canada</li>
+                <li className="footer-item-hover">New Zealand</li>
+                <li className="footer-item-hover">USA</li>
+                <li className="footer-item-hover">UK</li>
               </ul>
             </div>
           </div>
