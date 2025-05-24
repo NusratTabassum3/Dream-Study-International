@@ -3,7 +3,7 @@ function App() {
     <>
       <header className="">
         {/* header part 1 */}
-        <div className="xm:hidden lg:flex justify-between items-center bg-[#080D41] text-white px-4 h-16  text-lg   ">
+        <div className="xs:hidden lg:flex justify-between items-center bg-[#080D41] text-white px-4 h-16  text-lg   ">
           <div className="">
             <p className="text-center">
               We're Leading consutancy in Bangladesh
@@ -32,7 +32,7 @@ function App() {
         </div>
         {/* header part 1 end */}
         {/* header part 2 */}
-        <div className="xm:hidden  lg:w-full lg:grid lg:grid-cols-4 lg:items-center lg:gap-6">
+        <div className="xs:hidden  lg:w-full lg:grid lg:grid-cols-4 lg:items-center lg:gap-6">
           {/* Logo */}
           <div className="">
             <img src="/assets/Dream.png" alt="dreams" className="w-64 h-36" />
