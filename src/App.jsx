@@ -300,15 +300,12 @@ function App() {
 
       {/* Footer Start  */}
 
-      <footer className=" mt-20">
+      <footer className="mt-20">
         {/* part 1 start */}
-
-        {/* grid grid-cols-4 */}
-
-        <div className="outsideparent flex flex-wrap justify-between  items-center w-full px-8 py-10 gap-5 bg-[#F1F4F9]">
+        <div className="outsideparent flex flex-wrap justify-between items-center w-full px-8 py-10 gap-5 bg-[#F1F4F9] dark:bg-[#1c1c1e]">
           <div className="Parent flex flex-col gap-6">
             <div className="">
-              <div className=" bg-[#656567]">
+              <div className="bg-[#656567] dark:bg-gray-700">
                 <img
                   src="/assets/Dream2.png"
                   alt="dreams"
@@ -318,27 +315,27 @@ function App() {
             </div>
 
             <div className="">
-              <p className="text-[#656567]">
+              <p className="text-[#656567] dark:text-gray-300">
                 We are renowned education <br /> consultancy for prospective{" "}
                 <br />
                 students who would like to study in <br /> CANADA, UK, USA,
-                Australia, <br /> Sweden, Netherlands, Denmark & <br /> other
-                European Countries.
+                Australia, <br />
+                Sweden, Netherlands, Denmark & <br /> other European Countries.
               </p>
             </div>
 
-            <div className="flex justify-start items-center gap-6">
-              <div className="social-icon ">
-                <i class="fa-brands fa-facebook-f "></i>
+            <div className="flex justify-start items-center gap-6 text-[#656567] dark:text-white">
+              <div className="social-icon">
+                <i className="fa-brands fa-facebook-f"></i>
               </div>
               <div className="social-icon">
-                <i class="fa-brands fa-instagram "></i>
+                <i className="fa-brands fa-instagram"></i>
               </div>
               <div className="social-icon">
-                <i class="fa-brands fa-linkedin "></i>
+                <i className="fa-brands fa-linkedin"></i>
               </div>
               <div className="social-icon">
-                <i class="fa-brands fa-youtube "></i>
+                <i className="fa-brands fa-youtube"></i>
               </div>
             </div>
           </div>
@@ -348,15 +345,13 @@ function App() {
               <span>S</span>itemap
             </h1>
 
-            <div>
-              <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787] ">
-                <li className="footer-item-hover">Home</li>
-                <li className="footer-item-hover">About</li>
-                <li className="footer-item-hover">Service</li>
-                <li className="footer-item-hover">Countries</li>
-                <li className="footer-item-hover">Contact</li>
-              </ul>
-            </div>
+            <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787]">
+              <li className="footer-item-hover">Home</li>
+              <li className="footer-item-hover">About</li>
+              <li className="footer-item-hover">Service</li>
+              <li className="footer-item-hover">Countries</li>
+              <li className="footer-item-hover">Contact</li>
+            </ul>
           </div>
 
           <div>
@@ -364,57 +359,52 @@ function App() {
               Countries
             </h1>
 
-            <div>
-              <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787] ">
-                <li className="footer-item-hover">Australia</li>
-                <li className="footer-item-hover">Canada</li>
-                <li className="footer-item-hover">New Zealand</li>
-                <li className="footer-item-hover">USA</li>
-                <li className="footer-item-hover">UK</li>
-              </ul>
-            </div>
+            <ul className="list-disc pl-5 flex flex-col gap-4 marker:text-blue-500 dark:marker:text-blue-300 text-[#3A3A3A] dark:text-[#ab8787]">
+              <li className="footer-item-hover">Australia</li>
+              <li className="footer-item-hover">Canada</li>
+              <li className="footer-item-hover">New Zealand</li>
+              <li className="footer-item-hover">USA</li>
+              <li className="footer-item-hover">UK</li>
+            </ul>
           </div>
 
-          <div className="border rounded-lg p-10 bg-white">
+          <div className="border rounded-lg p-10 bg-white dark:bg-[#2c2c2e]">
             <div className="mb-12">
               <img src="/assets/Location.png" alt="" className="w-24 h-24" />
             </div>
 
-            <div className="flex  items-center gap-4 mb-5">
-              <i class="fa-solid fa-location-dot text-blue-500"></i>
-              <p className="text-[#656567]">
+            <div className="flex items-center gap-4 mb-5">
+              <i className="fa-solid fa-location-dot text-blue-500"></i>
+              <p className="text-[#656567] dark:text-gray-300">
                 <span className="font-bold">Gulshan-02:</span> House-12B,
                 Lift-04, Flat-4A,
-                <br /> Kamal Attaturk Avenue, Gulshan-02, Dhaka- <br />
-                1212.
+                <br /> Kamal Attaturk Avenue, Gulshan-02, Dhaka- <br /> 1212.
               </p>
             </div>
 
-            <div className="flex  items-center  gap-4 ">
-              <i class="fa-brands fa-whatsapp text-green-400"></i>
-              <p className="text-[#656567]">
+            <div className="flex items-center gap-4">
+              <i className="fa-brands fa-whatsapp text-green-400"></i>
+              <p className="text-[#656567] dark:text-gray-300">
                 <span className="font-bold">WhatsApp :</span> +880 14066 99551-4
               </p>
             </div>
           </div>
         </div>
-
         {/* part 1 end */}
 
         {/* part 2 start */}
-
-        <div className="flex flex-wrap  justify-between items-center bg-[#080D41] text-white px-4 h-16  text-lg">
-          <div className="">
+        <div className="flex flex-wrap justify-between items-center bg-[#080D41] dark:bg-[#0a0a0a] text-white px-4 h-16 text-lg">
+          <div>
             <p className="text-center">
               © 2023 Dream Study Int.. Designed By *hirebirds Team.
             </p>
           </div>
 
           <div>
-            <ul className="footer-list">
-              <li className="footer-item-full">About</li>
-              <li className="footer-item">FAQ</li>
-              <li className="footer-item">Contact</li>
+            <ul className="footer-list flex gap-4">
+              <li className="footer-item-full hover:text-blue-300">About</li>
+              <li className="footer-item hover:text-blue-300">FAQ</li>
+              <li className="footer-item hover:text-blue-300">Contact</li>
             </ul>
           </div>
         </div>
