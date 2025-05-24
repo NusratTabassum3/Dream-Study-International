@@ -5,7 +5,13 @@ export default {
   ],
   darkMode: 'class', // <-- Required for class-based dark mode
   theme: {
-    extend: {},
+    extend: {
+
+       screens: {
+        'xs': '320px',
+        
+      },
+    },
   },
   plugins: [],
 }
